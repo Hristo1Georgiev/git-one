@@ -1,0 +1,49 @@
+body {
+    background: grey;
+}
+.menu {
+    background-color: grey;
+    margin: 70px 0px 0px 70px;
+}
+h3 {
+    margin: 50px;
+}
+
+ul li {
+    visibility: hidden;
+    transform: translateX(-50px);
+    opacity: 0;
+}
+li {
+    font-family: "Courier New", Courier, monospace;
+    transition: all 0.6s ease-in 0.2s;
+    list-style: none;
+    padding: 2px;
+}
+
+.show  {
+    visibility: visible;
+    list-style: none;
+    cursor: pointer;
+    opacity: 1;
+    transform: translateX(50px);
+}
+
+.btn-home {
+    background-color: grey;
+}
+.btn-red {
+    background-color: red;
+}
+
+.btn-yellow {
+    background-color: yellow;
+}
+
+.btn-blue {
+    background-color: blue;
+}
+
+.btn-green {
+    background-color: green;
+}
